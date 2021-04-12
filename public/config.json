@@ -1,0 +1,35 @@
+{
+    "main": "public/index.html",
+    "name": "Google Keep",
+    "description": "",
+    "version": "2.0.0",
+    "plugins" : {
+                "Dock":"Dock",
+                "Dialog":"Dialog",
+                "Fonts" : "Fonts",
+                "Clipboard":"Clipboard",
+                "StatusItem":"StatusItem",
+                "Task" : "Task",
+                "Sound" : "Sound",
+                "Defaults" : "Defaults",
+                "File" : "File"
+                 },
+    "window" : {
+        "title" : "MacGap",
+        "width" : ,
+        "height" : ,
+        "position": ,
+        "min_width": 480,
+        "min_height": 400,
+        "max_width": ,
+        "max_height": ,
+        "opaque": 1,
+        "alpha": 1,
+        "titlebar": {
+            "visible": false,
+            "draggable": true,
+            "height": 22
+        }
+    }
+  
+}
