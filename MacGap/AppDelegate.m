@@ -10,6 +10,9 @@
 #import "WindowController.h"
 
 @implementation AppDelegate
+- (IBAction)fileNew:(id)sender {
+    [self.windowController showWindow:self];
+}
 
 - (void)applicationWillFinishLaunching:(NSNotification *)aNotification
 {
