@@ -6,7 +6,6 @@
     "plugins" : {
                 "Dock":"Dock",
                 "Dialog":"Dialog",
-                "Fonts" : "Fonts",
                 "Clipboard":"Clipboard",
                 "StatusItem":"StatusItem",
                 "Task" : "Task",
