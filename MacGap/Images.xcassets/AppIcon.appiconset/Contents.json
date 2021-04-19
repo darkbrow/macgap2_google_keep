@@ -1,19 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_16x16x32.png",
+      "filename" : "Keep_16x16x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_32x32x32-1.png",
+      "filename" : "Keep_32x32x32-1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_32x32x32.png",
+      "filename" : "Keep_32x32x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
@@ -25,37 +25,37 @@
       "size" : "32x32"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_128x128x32.png",
+      "filename" : "Keep_128x128x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_256x256x32-1.png",
+      "filename" : "Keep_256x256x32-1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_256x256x32.png",
+      "filename" : "Keep_256x256x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_512x512x32-1.png",
+      "filename" : "Keep_512x512x32-1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_512x512x32.png",
+      "filename" : "Keep_512x512x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "90f80bf98c906b29df347c345d1fffa3_Google_Keep_1024x1024x32.png",
+      "filename" : "Keep_1024x1024x32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
