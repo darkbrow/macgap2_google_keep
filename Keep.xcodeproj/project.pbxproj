@@ -112,6 +112,8 @@
 		3EEF80B12089DF8100F569D6 /* WebNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNotification.h; sourceTree = "<group>"; };
 		65EAED242018C629006617FE /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
 		65EAED252018C629006617FE /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		C74E1F2B262E4F2B00CF7EDF /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		C74E1F2D262E4F2C00CF7EDF /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ko; path = ko.lproj/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 2237E63D192B0177001E1393;
 			productRefGroup = 2237E647192B0177001E1393 /* Products */;
@@ -376,6 +379,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				22B1CEF71937734B00D2C294 /* Base */,
+				C74E1F2B262E4F2B00CF7EDF /* ko */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -392,6 +396,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				22B1CF241937734B00D2C294 /* en */,
+				C74E1F2D262E4F2C00CF7EDF /* ko */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -515,13 +520,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacGap/Keep-Prefix.pch";
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = "MacGap/Keep-Info.plist";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.darkbrow.Keep;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkbrow.xcwalk.Keep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -533,13 +538,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacGap/Keep-Prefix.pch";
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = "MacGap/Keep-Info.plist";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.darkbrow.Keep;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkbrow.xcwalk.Keep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
