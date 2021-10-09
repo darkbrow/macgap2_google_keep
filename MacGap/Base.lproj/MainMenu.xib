@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19162" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19162"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -56,6 +56,11 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="File" id="bib-Uj-vzu">
                         <items>
+                            <menuItem title="Open" keyEquivalent="o" id="YEJ-sP-iI6">
+                                <connections>
+                                    <action selector="fileNew:" target="Voe-Tx-rLC" id="lJe-a3-raW"/>
+                                </connections>
+                            </menuItem>
                             <menuItem title="Close" keyEquivalent="w" id="DVo-aG-piG">
                                 <connections>
                                     <action selector="performClose:" target="-1" id="HmO-Ls-i7Q"/>
@@ -311,7 +316,8 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="deI-6V-2TY"/>
-                            <menuItem title="Keep" keyEquivalent="0" id="Was-JA-tGl">
+                            <menuItem title="Keep" id="Was-JA-tGl">
+                                <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="fileNew:" target="Voe-Tx-rLC" id="tmC-bc-6jf"/>
                                 </connections>

@@ -41,6 +41,9 @@
 /* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
 "AYu-sK-qS6.title" = "Main Menu";
 
+/* Class = "NSMenuItem"; title = "Open"; ObjectID = "YEJ-sP-iI6"; */
+"YEJ-sP-iI6.title" = "열기";
+
 /* Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; */
 "DVo-aG-piG.title" = "닫기";
 
